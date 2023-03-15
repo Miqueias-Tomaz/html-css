@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouoing tags</title>
+    <style>
+        header {
+            background-color: rgb(88, 88, 88);
+            padding: 20px;
+        }
+        footer {
+            background-color: blue;
+            color: aliceblue;
+            padding: 4px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        body {
+            margin: 0px;
+            background-color: rgb(164, 171, 177);
+        }
+        main {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.356);
+            border-radius: 5px;
+        }
+        nav {
+            background-color: black;
+            padding: 20px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            margin-right: 45px;
+        }
+
+        nav > a:hover {
+            color: red;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+                <h2>outra seção</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores asperiores nesciunt vel perferendis accusamus repellat voluptatibus rem, possimus quasi voluptate reiciendis non repudiandae, minima adipisci. Dolorum ipsam deserunt voluptatem mollitia?</p>
+        </section>
+        <section id="nocticias">
+            <article>
+                <h2>noticias sobreo brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores est officia nesciunt in eligendi sit eveniet corrupti? Obcaecati amet ad enim dicta accusantium quos, optio vitae, magnam vel provident quasi!</p>
+                    <aside>
+                        <p>Artigo escrito por José da silva</p>
+                    </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+            <p>site desenvolvido por miqueias tomaz</p>
+    </footer>
+</body>
+</html>

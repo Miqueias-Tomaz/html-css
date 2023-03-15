@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir este site em dispositivos diferentes ou tente redimensionar o navegador.</p>
+        <picture>
+            <source media="(max-width: 750px)" srcset="imagens/pequena.png" type="image/png"> <!-- o max-width significa que se a imagem for menor que 750px entao deve abrir a imagem que está em 'SRCSET'. No type é o tipo de imagem, nesse caso a imagem é .png.-->
+            <source media="(max-width: 1050px)" srcset="Imagens/media.png" type="image/png">
+                <img src="imagens/grande.png" alt="imagem flexível.">
+                <!--Antes a imagem original deve ser inserida com a tag 'IMG'.-->
+
+            
+            <h1>Reproduzindo áudios</h1>
+                <p>Vamos aprender a reproduzir áudios em HTML5</p>
+                <!--<audio src="midia/Ice & Fire - King Canyon.mp3" controls autoplay></audio>
+        </picture>-->
+        <audio preload="metadata" autoplay controls loop> <!-- metadata, auto, none. 1 carrega os dados, mas só baixa o audio após o usuário clicar. 2 baixa automaticamente ao abrir o site, mas o site só carrega após baixar o audio. 3 none não carrega nada, só após clicar.-->
+            <source src="midia/Ice & Fire - King Canyon.mp3" type="audio/mpeg"> <!--Existem outros tipos de arquivo como, WAV, MP3, OGG.-->
+        </audio>
+</body>
+</html>

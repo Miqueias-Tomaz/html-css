@@ -1,0 +1,48 @@
+
+/* 
+    # = id (so pode um elemento)
+    . = class (pode varios elementos)
+
+    (o id no html fica "#" no css, e o class fica ".")
+*/
+
+body {
+    background-image:linear-gradient(rgb(0, 0, 0), rgb(48, 48, 58), rgb(87, 87, 94));
+    background-attachment: fixed;
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(7, 167, 2);
+}
+
+h2 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(7, 167, 2);
+}
+
+h1#principal {
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-size: 3em;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.basico {
+    background-color: #f6ff7f57;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.intermediario {
+    background-color: #0000ff63;
+}
+
+.css {
+    color: red;
+    font-style: italic;
+    font-weight: lighter;
+}
