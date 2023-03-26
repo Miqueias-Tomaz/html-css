@@ -1,0 +1,99 @@
+
+body, html {
+    background-color: rgb(155, 155, 247);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+header > h1 {
+    font-variant: small-caps;
+    font-size: 3em;
+}
+
+header > p {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover , footer a:hover {
+    text-decoration: underline;
+}
+
+.normal {
+    background-color: white;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+.imagem {
+    background-color: gray;
+}
+
+.imagem > p {
+    background-color: rgba(0, 0, 0, 0.411);
+    color: white;
+    width: 300px;
+    padding: 10px;
+}
+
+aside {
+    background-color: rgba(0, 0, 0, 0.815);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+aside  a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    
+}
+
+aside p {
+    padding: 5px;
+}
+
+#biografia {
+    text-align: justify;
+}
+
+aside > img {
+    max-width: 300px;
+}
+
+aside a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+footer > p {
+    text-align: center;
+}
+
