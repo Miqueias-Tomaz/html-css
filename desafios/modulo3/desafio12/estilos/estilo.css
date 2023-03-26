@@ -77,6 +77,8 @@ aside p {
 
 #biografia {
     text-align: justify;
+    max-width: 600px;
+    margin: auto;
 }
 
 aside > img {
