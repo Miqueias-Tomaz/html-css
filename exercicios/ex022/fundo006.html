@@ -7,12 +7,25 @@
     <title>Tamanho da imagem de fundo</title>
     <style>
         body {
+            /* 
             background-color: black;
             height: 100vh;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: top center;
             background-size: cover;
             background-repeat: no-repeat;
+            background-attachment: fixed;
+            */
+
+            /* 
+            Shorthand - Background
+            color > url > position > repeat > [size] > attachment.
+
+            O size não funciona no shorthand
+            */
+
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
         }
 
         main {
