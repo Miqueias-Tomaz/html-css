@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fonte1: 'Sriracha', cursive;
+}
+
 
 body, html {
     background-color: rgb(155, 155, 247);
@@ -44,17 +50,31 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte1);
+    font-size: 1.4em;
 }
 
 .imagem {
     background-color: gray;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .imagem > p {
     background-color: rgba(0, 0, 0, 0.411);
     color: white;
-    width: 300px;
+    width: 450px;
     padding: 10px;
+}
+
+#img01 {
+    background-image: url(../imagens/background001.webp);
+    background-position: right center;
+}
+
+#img02 {
+    background-image: url(../imagens/background002.jpg);
+    background-position: bottom right;
 }
 
 aside {
@@ -98,4 +118,5 @@ footer {
 footer > p {
     text-align: center;
 }
+
 
