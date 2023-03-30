@@ -10,7 +10,11 @@
         table {
             border-collapse: collapse;
             width: 600px;
-            
+            position: relative;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: lightgray;
         }
 
         td, th {
@@ -25,20 +29,34 @@
         .num {
             text-align: right;
         }
+
+        caption {
+            font-weight: bolder;
+            font-size: 1.5em;
+            padding: 10px scope="col";
+            background-color: lightseagreen;
+            border: 1px solid black;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: lightgray;
+        }
     </style>
 </head>
 <body>
-    <h1>Rank dos 3 países mais populosos do mundo</h1>
     <table>
+        <caption>Rank dos 3 países mais populosos do mundo</caption>
         <thead>
             <tr>
-                <th>
+                <th scope="col">
                     Posição
                 </th>
-                <th>
+                <th scope="col">
                     País (ou território dependente)
                 </th>
-                <th>
+                <th scope="col">
                     Estimativa da ONU
                 </th>
             </tr>
@@ -59,9 +77,34 @@
                 <td>Estados unidos</td>
                 <td class="num">331 449 281</td>
             </tr>
+            <tr>
+                <td class="posicao">4</td>
+                <td>Indonésia</td>
+                <td class="num">75.000.000.</td>
+            </tr>
+            <tr>
+                <td class="posicao">5</td>
+                <td>Paquistão</td>
+                <td class="num">234 000 000</td>
+            </tr>
+            <tr>
+                <td class="posicao">6</td>
+                <td>Nigéria</td>
+                <td class="num">210 000 000</td>
+            </tr>
+            <tr>
+                <td class="posicao">7</td>
+                <td>Brasil</td>
+                <td class="num">215 000 000</td>
+            </tr>
+            <tr>
+                <td class="posicao">8</td>
+                <td>Bangladesh</td>
+                <td class="num">170 000 000</td>
+            </tr>
         </tbody>
         <tfoot>
-
+ 
         </tfoot>
     </table>
 </body>
