@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        #botao {
+            color: blue;
+            background-color: aqua;
+            border: none;
+            padding: 5px;
+        }
+
+        #botao:hover {
+            background-color: red;
+            color: white;
+            text-decoration: underline  ;
+        }
+    </style>
+</head>
+<body>
+    <h1>cadastre-se aqui!   </h1>
+    <form action="cadastro.php" method="get">
+        NOME:
+        <input type="text" name="nome" id="nome">
+        <input type="submit" value="cadastrar">
+    </form>
+    <br><br><br>
+    <form action="cadastro.php" method="get">
+        E-MAIL:
+        <input type="email" name="email" id="email"> <br>
+        SENHA:
+        <input type="password" name="senha" id="senha">
+        <input type="submit" value="ENTRAR" id="botao">
+    </form>
+</body>
+</html>
