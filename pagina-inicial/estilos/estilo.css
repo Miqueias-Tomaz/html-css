@@ -12,22 +12,25 @@
 
 body {
     background-image: url(../imagens/fundo001.jpg);
-    background-size: 100%;
-    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 header > nav > h1 {
-    display: inline-block;
-    padding: 10px 250px;
+    text-align: center;
     color: var(--cor1);
     font-size: 2em;
+    font-variant: small-caps;
 }
 
 nav {
     font-variant: small-caps;
     background-color: #00000094;
-    padding: 10px;
+    padding: 10px 10px 36px 10px;
     width: 98.5vw;
+    
 }
 
 a {
@@ -36,6 +39,7 @@ a {
     text-decoration: none;
     font-size: 1.1em;
 }
+
 
 a:hover {
     background-color: #ffffff7a;
@@ -63,6 +67,7 @@ main > h1 {
     text-align: left;
     color: var(--cor1);
     padding-top: 25vh;
+    margin: 10px;
 }
 
 main > p {
@@ -71,15 +76,21 @@ main > p {
     font-variant: small-caps;
     background-color: var(--cor4);
     padding: 30px 5px;
-    width: 743px;
+    margin: 10px;
+    max-width: 743px;
     margin-bottom: 30px;
 }
 
 main > a{
     background-color: var(--cor2);
     border-radius: 20px;
+    margin: 10px;
 }
 
 main > a:hover {
     background-color: #0e1852;
+}
+
+#margin {
+    margin-left: 600px;
 }
