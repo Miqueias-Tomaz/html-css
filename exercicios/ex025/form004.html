@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <style>
+        legend {
+            text-align: center;
+        }
+        
+        fieldset {
+            width: 300px;
+        }
+
+        legend > img {
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    
+    <form action="formulario.php" method="post" autocomplete="on">
+        <fieldset>
+            <legend><img src="https://www.senff.com.br/app/themes/senff/resources/assets/images/icons/loginusuario.svg" alt="login"><!--Legenda do fieldset--></legend>
+            <h1>teste de formulário</h1>
+            <p>
+                <label for="itel">Telefone: </label>
+                <input type="tel" name="tel" id="itel" autocomplete="itel" placeholder="Telefone...">
+            </p>
+            <p>
+                <label for="iemail">E-mail: </label>
+                <input type="email" name="email" id="imail" placeholder="E-mail..." autocomplete="email">
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+            </p>
+        </fieldset>
+
+    </form>
+</body>
+</html>
