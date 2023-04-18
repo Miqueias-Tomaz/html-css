@@ -5,59 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Read.me</title>
-    <style>
-        * {
-            font-variant: small-caps;
-        }
-
-        body {
-            background-color: #414141;
-        }
-
-        header {
-            margin-bottom: 10px;
-            padding: 10px;
-            position: relative;
-            background-color: white;
-            box-shadow:4px 7px 17px 0px #0000006b;
-        }
-
-        header > h2 {
-            width: 490px;
-            display: inline-block;
-            margin: 0px;
-        }
-
-        header > img {
-            width: 130px;
-            position: absolute;
-            top: 20px;
-            left: 480px;
-        }
-
-        .links {
-            width: 400px;
-            display: inline-block;
-        }
-
-        .links > a {
-            display: block;
-            line-height: 30px;
-            text-decoration: none;
-            color: black;
-        }
-
-        main {
-            padding: 10px;
-            background-color: white;
-            box-shadow:4px 7px 17px 0px #0000006b;
-        }
-
-        main > img {
-            display: inline-block;
-            
-        }
-    </style>
+    <link rel="stylesheet" href="estilos/estilos.css">
 </head>
 <body>
 <header>
@@ -83,7 +31,3 @@
 </main>
 </body>
 </html>
-
-
-
-
