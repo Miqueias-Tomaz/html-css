@@ -1,11 +1,5 @@
 # html-css
-<head>
-<style>
-  img { width: 150px;
-  }
-</style>
-</head>
-<body>
+
 Curso de HTML5 e CSS3 do Curso em Video
 
 Estou aprendendo html5 e css3!
@@ -19,7 +13,7 @@ Estou aprendendo html5 e css3!
 <a href="https://miqueias-tomaz.github.io/tela-login/" target="_blank">Tela de Login</a>
 
 <img src="https://static.vecteezy.com/system/resources/previews/013/368/615/non_2x/3d-illustration-of-creative-learning-school-education-college-icon-png.png" alt="aprendizagem-img">
-</body>
+
 
 
 
